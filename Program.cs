@@ -12,7 +12,7 @@ namespace Moedas
             decimal valor = 10.25m; //OPÇÃO MAIS VIÁVEL
 
             //CONVERSÃO PARA A NOTAÇÃO BRASILEIRA, UTILIZANDO VIRGULA PARA CASAS DECIMAIS
-            // UTILIZANDO C(CURRENT) COMO PARÂMETRO, O VALOR JÁ EXIBIDO EM MOEDA
+            //UTILIZANDO C(CURRENT) COMO PARÂMETRO, O VALOR JÁ EXIBIDO EM MOEDA
             Console.WriteLine(valor.ToString(CultureInfo.CreateSpecificCulture("es-US"))); //Inglês
             Console.WriteLine(valor.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))); //Português
         }
